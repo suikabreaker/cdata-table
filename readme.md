@@ -4,6 +4,8 @@ This library provides for LuaJIT a table type that allows using cdata as its ind
 
 ## Installation
 
+It has no dependence, but require LuaJIT to run.
+
 ```bash
 luarocks install https://raw.githubusercontent.com/suikabreaker/cdata-table/master/cdata_table-1.0-1.rockspec
 ```
