@@ -1,6 +1,5 @@
 local ctbl = require "cdata_table"
 local ffi = require "ffi"
-local table_util = require "table_util"
 
 
 local t_v = {
@@ -22,8 +21,6 @@ end
 for _, v in ipairs(t_v) do
     assert(t[v]==v)
 end
-
-print(table_util.table_dump{t})
 
 for k, v in pairs(t) do
     if type(k) == 'cdata' and tostring(ffi.typeof(k)):find('&') then

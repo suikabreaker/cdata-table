@@ -36,7 +36,7 @@ local function from_key(key)
 
     local t = key:sub(1,1)
     if t == 's' then
-        return t:sub(2)
+        return key:sub(2)
     elseif t == 'c' then
         local ep = string.find(key, '@', 2, true)
         local t_str = key:sub(2,ep - 1)
