@@ -5,7 +5,7 @@ This library provides for LuaJIT a table type that allows using cdata as its ind
 ## Installation
 
 ```bash
-luarocks install https://raw.githubusercontent.com/suikabreaker/cdata-table/master/cdata_table-1.rockspec
+luarocks install https://raw.githubusercontent.com/suikabreaker/cdata-table/master/cdata_table-1.0-1.rockspec
 ```
 
 ## Usage
